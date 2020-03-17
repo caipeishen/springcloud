@@ -7,24 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-controller2" />
-        <module name="springcloud-dao" />
         <module name="springcloud-entity" />
-        <module name="springcloud-service" />
-        <module name="springcloud-web" />
+        <module name="springcloud-web-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud-controller" target="1.8" />
       <module name="springcloud-controller2" target="1.8" />
+      <module name="springcloud-dao" target="1.8" />
+      <module name="springcloud-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud-controller" options="-parameters" />
       <module name="springcloud-dao" options="-parameters" />
-      <module name="springcloud-entity" options="-parameters" />
+      <module name="springcloud-entity" options="" />
       <module name="springcloud-service" options="-parameters" />
-      <module name="springcloud-web" options="-parameters" />
+      <module name="springcloud-web-8001" options="" />
     </option>
   </component>
 </project>
