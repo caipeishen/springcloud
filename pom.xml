@@ -67,8 +67,9 @@
     </dependencies>
   </dependencyManagement>
 
+  <!-- 在指定的目录下 能用$符号包裹的取到该pom.xml的数据 -->
   <build>
-    <finalName>microservicecloud</finalName>
+    <finalName>springcloud</finalName>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -93,6 +94,7 @@
     <module>springcloud-entity</module>
     <module>springcloud-web-provider-8001</module>
     <module>springcloud-web-consumer-8002</module>
+    <module>springcloud-web-eureka-7001</module>
   </modules>
 
 </project>

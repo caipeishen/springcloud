@@ -9,7 +9,7 @@ mybatis:
     
 spring:
    application:
-    name: springcloud-web-8001
+    name: springcloud-provider-web-8001
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -22,3 +22,17 @@ spring:
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
 
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: springcloud-provider-web-8001
+    prefer-ip-address: true     #访问路径可以显示IP地址
+
+# Eureka的info信息 $project.artifactId$ 取的pom.xml中的数据
+info:
+  app.name: springcloud
+  company.name: www.nianshaoyouwei.club
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
