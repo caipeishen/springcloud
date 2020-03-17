@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-controller2" />
         <module name="springcloud-entity" />
-        <module name="springcloud-web-consumer-8002" />
+        <module name="springcloud-web-consumer-9001" />
         <module name="springcloud-web-eureka-7001" />
         <module name="springcloud-web-eureka-7002" />
         <module name="springcloud-web-eureka-7003" />
@@ -20,6 +20,9 @@
       <module name="springcloud-controller2" target="1.8" />
       <module name="springcloud-dao" target="1.8" />
       <module name="springcloud-service" target="1.8" />
+      <module name="springcloud-web-consumer-8002" target="1.8" />
+      <module name="springcloud-web-provider-8002" target="1.8" />
+      <module name="springcloud-web-provider-8003" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

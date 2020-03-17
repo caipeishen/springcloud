@@ -9,10 +9,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 
-@EnableEurekaClient //服务注册到Eureaka
-@EnableDiscoveryClient //服务发现Eureaka
 @MapperScan("cn.bd.springcloud.dao")
 @SpringBootApplication
+@EnableEurekaClient //服务注册到Eureaka
+@EnableDiscoveryClient //服务发现Eureaka
 public class Application_8001{
 
     public static void main(String[] args) {

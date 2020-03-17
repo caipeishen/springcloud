@@ -14,7 +14,7 @@ import java.util.List;
 @Controller
 @ResponseBody
 @RequestMapping("/dept")
-public class DeptController_8001 {
+public class DeptController {
 
     @Resource
     DeptService userService;
@@ -41,7 +41,7 @@ public class DeptController_8001 {
      * 服务发现
      * @return
      */
-    @RequestMapping(value = "/dept/discovery", method = RequestMethod.GET)
+    @RequestMapping(value = "/discovery", method = RequestMethod.GET)
     public Object discovery()
     {
         List<String> list = client.getServices();

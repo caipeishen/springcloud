@@ -9,14 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>消费者</name>
-    <artifactId>springcloud-web-consumer-8002</artifactId>
+    <artifactId>springcloud-web-consumer-9001</artifactId>
 
     <dependencies>
-        <dependency><!-- 自己定义的api -->
+        <!-- 自己定义的api -->
+        <dependency>
             <groupId>cn.bd.springcloud</groupId>
             <artifactId>springcloud-entity</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- Ribbon相关 -->
         <dependency>
@@ -30,10 +34,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- 修改后立即生效，热部署 -->
         <dependency>

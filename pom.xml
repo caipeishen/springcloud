@@ -91,12 +91,18 @@
 
 
   <modules>
+
+    <!--自定义实体类-->
     <module>springcloud-entity</module>
-    <module>springcloud-web-provider-8001</module>
-    <module>springcloud-web-consumer-8002</module>
+    <!--Eureka集群-->
     <module>springcloud-web-eureka-7001</module>
     <module>springcloud-web-eureka-7002</module>
     <module>springcloud-web-eureka-7003</module>
+    <!--提供者-->
+    <module>springcloud-web-provider-8001</module>
+    <!-- 消费者 -->
+    <module>springcloud-web-consumer-9001</module>
+
   </modules>
 
 </project>

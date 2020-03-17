@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>提供者</name>
     <artifactId>springcloud-web-provider-8001</artifactId>
 
     <dependencies>

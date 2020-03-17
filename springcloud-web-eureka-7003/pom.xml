@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Eureka注册与发现</name>
     <artifactId>springcloud-web-eureka-7003</artifactId>
 
 
