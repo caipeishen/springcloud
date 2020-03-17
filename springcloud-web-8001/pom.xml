@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-web</artifactId>
+    <artifactId>springcloud-web-8001</artifactId>
 
     <dependencies>
         <!-- 引入自己定义的api通用包，可以使用Entity -->

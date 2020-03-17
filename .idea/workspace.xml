@@ -2,82 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0741912-e5a1-43a3-a957-b356770922ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dao/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dao/src/main/java/cn/bd/springcloud/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/java/cn/bd/springcloud/dao/DeptMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-dao/target/classes/cn/bd/springcloud/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-entity/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-entity/src/main/java/cn/bd/springcloud/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-entity/src/main/java/cn/bd/springcloud/entity/Dept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-entity/target/classes/cn/bd/springcloud/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service/src/main/java/cn/bd/springcloud/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/java/cn/bd/springcloud/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service/src/main/java/cn/bd/springcloud/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/java/cn/bd/springcloud/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service/target/classes/cn/bd/springcloud/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service/target/classes/cn/bd/springcloud/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/configurer/DateConverterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/configurer/MybatisConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/configurer/WebMvcConfigurer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/configurer/WebMvcConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/AbstractService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/ProjectConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/ResultCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/ResultGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/ResultPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/core/ServiceException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/web/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-8001/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/springcloud-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/java/cn/bd/springcloud/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/configurer/DateConverterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/configurer/MybatisConfigurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/configurer/WebMvcConfigurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/AbstractService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/Mapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/ProjectConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/ResultCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/ResultGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/ResultPages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/core/ServiceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/BeanUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/BirthUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/CheckCodeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/DeviceUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/FileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/HttpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/IpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/Scheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/StringUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/encrypt/AESUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/encrypt/MD5Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/excel/ExcelListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/util/excel/ExcelUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/java/cn/bd/springcloud/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/java/cn/bd/springcloud/web/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/src/test/java/cn/bd/springcloud/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/src/test/java/cn/bd/springcloud/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/target/classes/cn/bd/springcloud/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web/target/test-classes/cn/bd/springcloud/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-8001/target/test-classes/cn/bd/springcloud/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/configurer/DateConverterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/configurer/MybatisConfigurer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/configurer/WebMvcConfigurer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/configurer/WebMvcConfigurer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/AbstractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/ProjectConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/ResultCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/ResultGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/ResultPages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/core/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/cn/bd/springcloud/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web/target/classes/mapper/UserMapper.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-entity/target/" />
@@ -483,7 +427,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584424487496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584425085808" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -541,12 +485,20 @@
       <updated>1581490870625</updated>
       <workItem from="1581490874447" duration="7404000" />
       <workItem from="1581555253250" duration="8925000" />
-      <workItem from="1584419921410" duration="4242000" />
+      <workItem from="1584419921410" duration="4730000" />
     </task>
+    <task id="LOCAL-00001" summary="大调整">
+      <created>1584424515449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584424515449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20571000" />
+    <option name="totallyTimeSpent" value="21059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,7 +511,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24463807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -571,7 +522,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18035191" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.643695" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -598,6 +549,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="大调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="大调整" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springcloud-entity/src/main/java/cn/bd/springcloud/App.java" />

@@ -90,8 +90,8 @@
 
 
   <modules>
-    <module>springcloud-web</module>
     <module>springcloud-entity</module>
+    <module>springcloud-web-8001</module>
   </modules>
 
 </project>
