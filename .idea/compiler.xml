@@ -8,7 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-controller2" />
         <module name="springcloud-entity" />
-        <module name="springcloud-web-8001" />
+        <module name="springcloud-web-consumer-8002" />
+        <module name="springcloud-web-provider-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,7 +25,7 @@
       <module name="springcloud-dao" options="-parameters" />
       <module name="springcloud-entity" options="" />
       <module name="springcloud-service" options="-parameters" />
-      <module name="springcloud-web-8001" options="" />
+      <module name="springcloud-web-provider-8001" options="" />
     </option>
   </component>
 </project>

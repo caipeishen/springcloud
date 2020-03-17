@@ -13,22 +13,22 @@ import java.util.List;
 @Controller
 @ResponseBody
 @RequestMapping("/dept")
-public class DeptController {
+public class DeptController_8001 {
 
     @Resource
     DeptService userService;
 
-    @RequestMapping("/addDept")
-    public Integer addDept(@RequestBody Dept dept){
+    @RequestMapping("/add")
+    public Integer addDept(Dept dept){
         return userService.addDept(dept);
     }
 
-    @RequestMapping("/getDeptByDno/{dno}")
+    @RequestMapping("/get/{dno}")
     public Dept getDeptByDno(@PathVariable("dno") Integer dno){
         return userService.getDeptByDno(dno);
     }
 
-    @RequestMapping("/getDeptList")
+    @RequestMapping("/list")
     public List<Dept> getDeptList(){
         return userService.getDeptList();
     }

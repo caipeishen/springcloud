@@ -8,16 +8,16 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @MapperScan("cn.bd.springcloud.dao")  //扫描dao层
 @SpringBootApplication      //SpringBoot启动2
-public class Application extends SpringBootServletInitializer {
+public class Application_8001 extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application_8001.class, args);
     }
 
     //重写configure方法
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(Application.class);
+        return application.sources(Application_8001.class);
     }
 
 }

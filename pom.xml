@@ -91,7 +91,8 @@
 
   <modules>
     <module>springcloud-entity</module>
-    <module>springcloud-web-8001</module>
+    <module>springcloud-web-provider-8001</module>
+    <module>springcloud-web-consumer-8002</module>
   </modules>
 
 </project>
