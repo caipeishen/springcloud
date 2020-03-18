@@ -100,9 +100,10 @@
     <module>springcloud-web-eureka-7003</module>
     <!--提供者-->
     <module>springcloud-web-provider-8001</module>
+    <module>springcloud-web-provider-8002</module>
+    <module>springcloud-web-provider-8003</module>
     <!-- 消费者 -->
     <module>springcloud-web-consumer-9001</module>
-    <module>springcloud-web-provider-8002</module>
 
   </modules>
 

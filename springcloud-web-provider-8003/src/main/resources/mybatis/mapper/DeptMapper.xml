@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.bd.springcloud.dao.DeptMapper">
+
+    <!-- 插入部门列表 -->
+    <insert id="addDept">
+		insert into `dept`(dname,db_source) VALUES(#{dname},DATABASE());
+    </insert>
+
+    <!-- 根据dno查询部门列表 -->
+    <select id="getDeptByDno" resultType="cn.bd.springcloud.entity.Dept">
+        select dno,dname,db_source from `dept` where dno = #{dno}
+    </select>
+
+    <!-- 查询所有部门列表 -->
+    <select id="getDeptList" resultType="cn.bd.springcloud.entity.Dept">
+        select dno,dname,db_source from `dept`
+    </select>
+
+</mapper>
