@@ -102,6 +102,7 @@
     <module>springcloud-web-provider-8001</module>
     <!-- 消费者 -->
     <module>springcloud-web-consumer-9001</module>
+    <module>springcloud-web-provider-8002</module>
 
   </modules>
 
