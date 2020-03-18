@@ -1,6 +1,7 @@
 package cn.bd.springcloud.cfg;
 
 import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import com.netflix.loadbalancer.RetryRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -15,6 +16,17 @@ public class ConfigBean //boot -->spring   applicationContext.xml --- @Configura
 	public RestTemplate getRestTemplate()
 	{
 		return new RestTemplate();
+	}
+
+	/**
+	 * 自定义Ribbon策略(默认轮询策略)
+	 * @return
+	 */
+	@Bean
+	public IRule myRule(){
+		//return new RoundRobinRule()//不配置时，默认轮询
+		//return new RandomRule();//随机算法
+		return new RetryRule();//先按照RoundRobinRule的策略获取服务，如果获取服务失败则在指定时间内会进行重试，获取可用的服务
 	}
 
 }
