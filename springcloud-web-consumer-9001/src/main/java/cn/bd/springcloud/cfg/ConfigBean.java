@@ -19,14 +19,16 @@ public class ConfigBean //boot -->spring   applicationContext.xml --- @Configura
 	}
 
 	/**
-	 * 自定义Ribbon策略(默认轮询策略)
+	 * 自定义使用Ribbon自带策略(默认轮询策略)
 	 * @return
 	 */
-	@Bean
-	public IRule myRule(){
-		//return new RoundRobinRule()//不配置时，默认轮询
-		//return new RandomRule();//随机算法
-		return new RetryRule();//先按照RoundRobinRule的策略获取服务，如果获取服务失败则在指定时间内会进行重试，获取可用的服务
-	}
+
+//  使用我们自定义配置类 负载均衡策略
+//	@Bean
+//	public IRule myRule(){
+//		//return new RoundRobinRule()//不配置时，默认轮询
+//		//return new RandomRule();//随机算法
+//		return new RetryRule();//先按照RoundRobinRule的策略获取服务，如果获取服务失败则在指定时间内会进行重试，获取可用的服务
+//	}
 
 }
