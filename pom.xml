@@ -104,6 +104,7 @@
     <module>springcloud-web-provider-8003</module>
     <!-- 消费者 -->
     <module>springcloud-web-consumer-9001</module>
+    <module>springcloud-web-consumer-feign</module>
 
   </modules>
 

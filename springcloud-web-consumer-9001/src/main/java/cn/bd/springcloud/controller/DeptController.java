@@ -39,7 +39,6 @@ public class DeptController
 		return restTemplate.getForObject(REST_URL_PREFIX + "/dept/get/" + dno, Dept.class);
 	}
 
-	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/list")
 	public List<Dept> list()
 	{

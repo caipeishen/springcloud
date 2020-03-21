@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-entity" />
         <module name="springcloud-web-consumer-9001" />
+        <module name="springcloud-web-consumer-feign" />
         <module name="springcloud-web-eureka-7001" />
         <module name="springcloud-web-eureka-7002" />
         <module name="springcloud-web-eureka-7003" />
@@ -16,5 +17,8 @@
         <module name="springcloud-web-provider-8003" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-web-consumer-feign-9001" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
