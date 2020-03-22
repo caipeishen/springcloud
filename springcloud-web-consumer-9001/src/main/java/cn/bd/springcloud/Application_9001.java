@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 @EnableEurekaClient
 @SpringBootApplication
 //在启动该微服务的时候就能去加载我们的自定义Ribbon配置类，从而使配置生效(配置类不能放在@ComponentScan扫描包下)
-@RibbonClient(name="SPRINGCLOUD-PROVIDER-WEB",configuration = MyRuleCustomize.class)
+@RibbonClient(name="SPRINGCLOUD-WEB-PROVIDER",configuration = MyRuleCustomize.class)
 public class Application_9001
 {
     public static void main(String[] args)

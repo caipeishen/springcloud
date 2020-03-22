@@ -14,7 +14,7 @@ import java.util.List;
  * @author zzyy
  * @date 2018年4月21日
  */
-@FeignClient(value = "SPRINGCLOUD-PROVIDER-WEB")
+@FeignClient(value = "SPRINGCLOUD-WEB-PROVIDER")
 public interface DeptFeignService {
 
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)

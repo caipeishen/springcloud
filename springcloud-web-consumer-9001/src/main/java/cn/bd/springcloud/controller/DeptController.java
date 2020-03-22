@@ -18,7 +18,7 @@ public class DeptController
 	//private static final String REST_URL_PREFIX = "http://localhost:8001";
 
 	//通过微服务名访问，从这里还是真正的微服务 restTemplate 加上@LoadBalanced 注解才可以访问服务名
-	private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-WEB";
+	private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-WEB-PROVIDER";
 
 	/**
 	 * 使用 使用restTemplate访问restful接口非常的简单粗暴无脑。 (url, requestMap,

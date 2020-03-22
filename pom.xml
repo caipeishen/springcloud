@@ -105,6 +105,7 @@
     <!-- 消费者 -->
     <module>springcloud-web-consumer-9001</module>
     <module>springcloud-web-consumer-feign</module>
+      <module>springcloud-web-provider-hystrix-8001</module>
 
   </modules>
 
