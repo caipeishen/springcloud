@@ -9,6 +9,7 @@
         <module name="springcloud-entity" />
         <module name="springcloud-web-consumer-9001" />
         <module name="springcloud-web-consumer-feign" />
+        <module name="springcloud-web-consumer-hystrix-dashboard" />
         <module name="springcloud-web-eureka-7001" />
         <module name="springcloud-web-eureka-7002" />
         <module name="springcloud-web-eureka-7003" />

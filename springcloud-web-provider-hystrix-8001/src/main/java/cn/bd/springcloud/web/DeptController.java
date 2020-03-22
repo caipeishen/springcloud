@@ -23,6 +23,13 @@ public class DeptController {
     @Resource
     DeptService userService;
 
+
+    @RequestMapping("/list")
+    public List<Dept> getDeptList(){
+        return userService.getDeptList();
+    }
+
+
     @RequestMapping("/get/{dno}")
     //一旦调用服务方法失败并抛出了错误信息后，会自动调用@HystrixCommand标注好的fallbackMethod调用类中的指定方法
     @HystrixCommand(fallbackMethod="fallbackGetDeptByDno")
