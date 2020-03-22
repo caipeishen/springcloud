@@ -23,14 +23,6 @@ public class DeptController {
     @Resource
     DeptService userService;
 
-    @Autowired
-    private DiscoveryClient client;
-
-    @RequestMapping("/add")
-    public Integer addDept(Dept dept){
-        return userService.addDept(dept);
-    }
-
     @RequestMapping("/get/{dno}")
     //一旦调用服务方法失败并抛出了错误信息后，会自动调用@HystrixCommand标注好的fallbackMethod调用类中的指定方法
     @HystrixCommand(fallbackMethod="fallbackGetDeptByDno")
@@ -40,11 +32,6 @@ public class DeptController {
             throw new RuntimeException("该ID："+dno+"不存在数据库中!");
         }
         return dept;
-    }
-
-    @RequestMapping("/list")
-    public List<Dept> getDeptList(){
-        return userService.getDeptList();
     }
 
     /**
