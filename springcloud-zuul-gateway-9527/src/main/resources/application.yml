@@ -13,7 +13,16 @@ eureka:
     instance-id: gateway-9527.com
     prefer-ip-address: true 
 
- 
+zuul:
+  #路由前缀
+  prefix: /cps
+  #忽视原真实服务名
+  ignored-services: "*" #单个忽视springcloud-web-provider
+  #路由配置
+  routes:
+    mydept.serviceId: springcloud-web-provider
+    mydept.path: /mydept/**
+
 info:
   app.name: springcloud
   company.name: www.nianshaoyouwei.club
