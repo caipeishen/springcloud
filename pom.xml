@@ -107,6 +107,7 @@
     <module>springcloud-web-consumer-feign</module>
       <module>springcloud-web-provider-hystrix-8001</module>
       <module>springcloud-web-consumer-hystrix-dashboard</module>
+      <module>springcloud-zuul-gateway-9527</module>
 
   </modules>
 

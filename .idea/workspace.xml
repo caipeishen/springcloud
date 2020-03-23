@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25aa554e-8e7d-4034-aa75-57209002ee09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-gateway-9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-gateway-9527/springcloud-zuul-gateway-9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/web/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/web/DeptController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/springcloud-web-consumer-feign/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-zuul-gateway-9527/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,42 +50,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/src/main/java/cn/bd/springcloud/Application_8001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="214">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#687#688#0" expanded="true" />
                 <element signature="e#754#755#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/src/main/java/cn/bd/springcloud/web/DeptController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/java/cn/bd/springcloud/Application_Feign_9001.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/web/DeptController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -99,6 +70,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8002/src/main/java/cn/bd/springcloud/dao/DeptMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8003/src/main/java/cn/bd/springcloud/Application_8003.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -108,48 +88,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/Application_Hystrix_8001.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="1014">
+              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/java/cn/bd/springcloud/controller/DeptController.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/cn/bd/springcloud/Application_Zuul_Gateway_9527.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-entity/src/main/java/cn/bd/springcloud/service/DeptFeignServiceFallbackFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/src/main/java/cn/bd/springcloud/Application_HyStrix_DashBoard_6001.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="79">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-web-eureka-7001/src/main/java/cn/bd/springcloud/Application_7001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-web-eureka-7002/src/main/java/cn/bd/springcloud/Application_7002.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-web-eureka-7003/src/main/java/cn/bd/springcloud/Application_7003.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -221,6 +213,10 @@
         <option value="$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/src/main/java/cn/bd/springcloud/Application_HyStrix_DashBoard_6001.java" />
         <option value="$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/web/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/test/java/cn/bd/springcloud/AppTest.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/cn/bd/springcloud/Application_Zuul_Gateway_9527.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -332,8 +328,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -803,6 +799,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-web-provider-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1018,6 +1024,49 @@
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1033,8 +1082,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584876319608" />
-    <property name="last_opened_file_path" value="E:/百度云盘/尚硅谷SpringCloud视频/codes/microservicecloud" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584934164665" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1048,11 +1097,11 @@
       <recent name="bd.myrule" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Cps\IntelliJ IDEA 2018.3.2\springcloud\springcloud-zuul-gateway-9527\src\main\resources" />
       <recent name="E:\Cps\IntelliJ IDEA 2018.3.2\springcloud\springcloud-web-consumer-hystrix-dashboard\src\main\resources" />
       <recent name="E:\Cps\IntelliJ IDEA 2018.3.2\springcloud\springcloud-web-provider-hystrix-8001\src\main\resources" />
       <recent name="E:\Cps\IntelliJ IDEA 2018.3.2\springcloud\springcloud-web-provider-hystrix-8001\src\main\java" />
       <recent name="E:\Cps\IntelliJ IDEA 2018.3.2\springcloud\springcloud-web-consumer-feign\src\main\resources" />
-      <recent name="E:\Cps\IntelliJ IDEA 2018.3.2\springcloud\springcloud-web-consumer-feign\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1067,7 +1116,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application_Feign_9001">
+  <component name="RunManager" selected="Application.Application_Zuul_Gateway_9527">
+    <configuration name="Application_Zuul_Gateway_9527" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.bd.springcloud.Application_Zuul_Gateway_9527" />
+      <module name="springcloud-zuul-gateway-9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bd.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application_7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-web-eureka-7003" />
       <extension name="coverage">
@@ -1077,6 +1139,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bd.springcloud.Application_7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-web-provider-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bd.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bd.springcloud.Application_8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1094,52 +1169,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application_Feign_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-web-consumer-feign" />
+    <configuration name="Application_8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-web-provider-8003" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.bd.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bd.springcloud.Application_Feign_9001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application_HyStrix_DashBoard_6001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-web-consumer-hystrix-dashboard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.bd.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bd.springcloud.Application_HyStrix_DashBoard_6001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application_Hystrix_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-web-provider-hystrix-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.bd.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bd.springcloud.Application_Hystrix_8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.bd.springcloud.Application_8003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application_Feign_9001" />
-        <item itemvalue="Spring Boot.Application_HyStrix_DashBoard_6001" />
-        <item itemvalue="Spring Boot.Application_8002" />
-        <item itemvalue="Spring Boot.Application_Hystrix_8001" />
+        <item itemvalue="Application.Application_Zuul_Gateway_9527" />
         <item itemvalue="Spring Boot.Application_7003" />
+        <item itemvalue="Spring Boot.Application_8003" />
+        <item itemvalue="Spring Boot.Application_8002" />
+        <item itemvalue="Spring Boot.Application_8001" />
       </list>
     </recent_temporary>
   </component>
@@ -1156,7 +1205,8 @@
       <workItem from="1584535292887" duration="4814000" />
       <workItem from="1584623279068" duration="3963000" />
       <workItem from="1584787732475" duration="1947000" />
-      <workItem from="1584857612635" duration="8728000" />
+      <workItem from="1584857612635" duration="9040000" />
+      <workItem from="1584928264176" duration="2085000" />
     </task>
     <task id="LOCAL-00001" summary="Ribbon负载均衡 轮询模式实现">
       <created>1584536470586</created>
@@ -1200,7 +1250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584868580495</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="服务监控Hystrix Dashboard">
+      <created>1584876376684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584876376684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1212,13 +1269,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21394000" />
+    <option name="totallyTimeSpent" value="23791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1228,7 +1284,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11143695" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43841642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1262,57 +1318,10 @@
     <MESSAGE value="feign + Ribbon负载均衡" />
     <MESSAGE value="Hystrix熔断器使用" />
     <MESSAGE value="Hystrix服务降级" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hystrix服务降级" />
+    <MESSAGE value="服务监控Hystrix Dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务监控Hystrix Dashboard" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/src/main/java/cn/bd/springcloud/service/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bd/springcloud/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8002/src/main/java/cn/bd/springcloud/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8002/src/main/java/cn/bd/springcloud/service/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8002/src/main/java/cn/bd/springcloud/web/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/java/cn/bd/springcloud/cfg/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1413,13 +1422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/test/java/cn/bd/springcloud/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/test/java/cn/bd/springcloud/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-9001/src/main/java/cn/bd/springcloud/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1454,24 +1457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1520,10 +1509,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/src/main/java/cn/bd/springcloud/web/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/web/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/Application_Hystrix_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-9001/src/main/java/cn/bd/springcloud/Application_9001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/java/cn/bd/springcloud/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-entity/src/main/java/cn/bd/springcloud/service/DeptFeignServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/java/cn/bd/springcloud/Application_Feign_9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/src/main/java/cn/bd/springcloud/Application_HyStrix_DashBoard_6001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/test/java/cn/bd/springcloud/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1541,24 +1621,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-eureka-7003/src/main/java/cn/bd/springcloud/Application_7003.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/EnableZuulProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/Application_Hystrix_8001.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="193">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8003/src/main/java/cn/bd/springcloud/Application_8003.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/src/main/java/cn/bd/springcloud/Application_8001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="214">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1569,69 +1653,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-hystrix-dashboard/src/main/java/cn/bd/springcloud/Application_HyStrix_DashBoard_6001.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8002/src/main/java/cn/bd/springcloud/dao/DeptMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8003/src/main/java/cn/bd/springcloud/Application_8003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-web-eureka-7003/src/main/java/cn/bd/springcloud/Application_7003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-gateway-9527/src/main/java/cn/bd/springcloud/Application_Zuul_Gateway_9527.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/src/main/java/cn/bd/springcloud/Application_8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-8001/src/main/java/cn/bd/springcloud/web/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-provider-hystrix-8001/src/main/java/cn/bd/springcloud/web/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/java/cn/bd/springcloud/Application_Feign_9001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-entity/src/main/java/cn/bd/springcloud/service/DeptFeignServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-web-consumer-feign/src/main/java/cn/bd/springcloud/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
           </folding>
         </state>
       </provider>
