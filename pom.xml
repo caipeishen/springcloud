@@ -5,6 +5,12 @@
   <groupId>cn.bd.springcloud</groupId>
   <artifactId>springcloud</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+  </dependencies>
   <packaging>pom</packaging>
 
 
@@ -95,21 +101,28 @@
     <!--自定义实体类-->
     <module>springcloud-entity</module>
     <!--Eureka集群-->
-    <module>springcloud-web-eureka-7001</module>
-    <module>springcloud-web-eureka-7002</module>
-    <module>springcloud-web-eureka-7003</module>
+    <module>springcloud-eureka-7001</module>
+    <module>springcloud-eureka-7002</module>
+    <module>springcloud-eureka-7003</module>
     <!--提供者-->
     <module>springcloud-web-provider-8001</module>
     <module>springcloud-web-provider-8002</module>
     <module>springcloud-web-provider-8003</module>
-    <!-- 消费者 -->
+    <!--Ribbon负载均衡 -->
     <module>springcloud-web-consumer-9001</module>
+    <!--Feign负载均衡-->
     <module>springcloud-web-consumer-feign</module>
-      <module>springcloud-web-provider-hystrix-8001</module>
-      <module>springcloud-web-consumer-hystrix-dashboard</module>
-      <module>springcloud-zuul-gateway-9527</module>
-      <module>springcloud-config-3344</module>
+    <!--Hystrix熔断器-->
+    <module>springcloud-web-provider-hystrix-8001</module>
+    <!--Hystrix-dashboard监控-->
+    <module>springcloud-web-consumer-hystrix-dashboard</module>
+    <!--Zuul网关-->
+    <module>springcloud-zuul-gateway-9527</module>
+    <!--Config集中化配置-->
+    <module>springcloud-config-3344</module>
     <module>springcloud-config-client-3355</module>
+    <module>springcloud-config-eureka-7001</module>
+    <module>springcloud-config-provider-8001</module>
 
   </modules>
 
