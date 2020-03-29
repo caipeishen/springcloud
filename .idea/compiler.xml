@@ -25,7 +25,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springcloud-eureka-7003" target="1.8" />
       <module name="springcloud-web-consumer-feign-9001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
